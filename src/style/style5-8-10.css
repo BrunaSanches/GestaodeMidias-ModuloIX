@@ -43,7 +43,8 @@ h1{
     text-align: center;
     color: #1684a0;
     font-weight: bold;
-    padding-top: 2em;
+    padding-bottom: 1em;
+    padding-top: 1em;
 }
 p{
     font-size: 22px;
@@ -53,8 +54,18 @@ p{
     padding:2em;
 
 }
-#esquerda img{
+#img5{
     width:70%;
     height: 90vh;
+    border-radius: 2%;
+}
+#img8{
+    width:70%;
+    height: 90vh;
+    border-radius: 2%;
+}
+#img10{
+    width:70%;
+    height: 50vh;
     border-radius: 2%;
 }
