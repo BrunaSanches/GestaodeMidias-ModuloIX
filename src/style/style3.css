@@ -16,6 +16,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-image: linear-gradient(180deg,#0096bb,#51d1f1);
 }
 #direita{
     width: 50%;
@@ -27,7 +28,10 @@
 #cor{
     width: 80%;
     height: 50vh;
-    background-color:#51d1f1;
+    background-color: #1684a0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 
 }
@@ -36,27 +40,29 @@ h1{
     font-weight: 600;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
-    color: black;
+    color: white;
     font-weight: bold;
-    padding: 1em;
+    padding-bottom: 2em;
 }
 p{
-    font-size: 20px;
+    font-size: 22px;
     font-family: 'Open Sans', sans-serif;
     text-align: justify;
-    color: black;
-    padding-top: 1em;
+    color: white;
+    padding-bottom:2em;
 
 }
-ul{
-    padding-left: 2em;
-    padding-right: 2em;
-}
+
 li{
     font-size: 20px;
     font-family: 'Open Sans', sans-serif;
     text-align: justify;
-    color: black;
+    color: white;
+    line-height:25pt;
    
  
+}
+#direita img{
+    width: 70%;
+    height: 70vh;
 }
