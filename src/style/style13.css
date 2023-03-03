@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+#esquerda{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+#direita{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(180deg,#0096bb,#51d1f1);
+   
+}
+h1{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    color: black;
+    font-weight: bold;
+}
+#direita img{
+    width: 120%;
+    height: 70vh;
+    border-radius: 2%;
+}
+p{
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    color: black;
+    padding:3em;
+
+}
+#cor{
+    width: 60%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color:#51d1f1;
+}
+#direita img:hover{
+    scale: 1.1;
+    transition: .4s;
+}
