@@ -57,7 +57,68 @@ h2{
     font-family: 'Open Sans', sans-serif;
     color: black;
     font-weight: bold;
-    padding: 2em;
+    padding-top: 1em;
 
    
+}
+
+/* RESPONSIVIDADE TELAS PEQUENAS */
+@media screen and (min-width: 768px) and (max-width: 1025px){
+    #home{
+        flex-direction: column;
+    }
+    #esquerda{
+        width: 100%;
+        height: 50vh;
+        
+    }
+    #direita{
+        width: 100%;
+        height: 50vh;
+    }
+  
+    p{
+        font-size: 13px;
+        
+     }
+     h2{
+        font-size:20px;
+     }
+     
+    #direita img{
+        width: 60%;
+        height: 48vh;
+    }
+   
+   
+}
+
+/* RESPONSIVIDADE DISPOSITIVOS MOBILE */
+@media screen and (min-width: 280px) and (max-width: 480px) {
+    #home{
+        flex-direction: column;
+    }
+    #esquerda{
+        width: 100%;
+        height: 50vh;
+        
+    }
+    #direita{
+        width: 100%;
+        height: 50vh;
+    }
+     p{
+        font-size: 10px;
+    
+     }
+     
+     h2{
+        font-size: 20px;
+     }
+     
+
+    #direita img{
+        width: 100%;
+        height: 50vh;
+    }
 }
