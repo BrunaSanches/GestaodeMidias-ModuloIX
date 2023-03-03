@@ -16,10 +16,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: aliceblue;
+    background-image: linear-gradient(180deg,#40bbda,#a9eeff );
 
-   
-    
 }
 #direita{
     width: 50%;
@@ -27,13 +25,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(180deg,#40bbda,#a9eeff );
+    flex-direction: column;
+    background-color: aliceblue;
    
 }
 #direita img{
-    width: 90%;
-    height: 50vh;
-    border-radius: 3%;
+    width: 100%;
+    height: 100vh;
 }
 p{
     font-size: 22px;
@@ -44,81 +42,15 @@ p{
     line-height:30pt;
 
 }
-#texto{
-    width: 100%;
-    height: 10vh;
-    display: flex;
-    justify-content: right;
-    align-items: right;
-}
+
 h2{
-    font-size: 30px;
+    font-size: 32px;
     font-weight: 600;
     font-family: 'Open Sans', sans-serif;
     color: black;
     font-weight: bold;
-    padding-top: 1em;
-
-   
-}
-
-/* RESPONSIVIDADE TELAS PEQUENAS */
-@media screen and (min-width: 768px) and (max-width: 1025px){
-    #home{
-        flex-direction: column;
-    }
-    #esquerda{
-        width: 100%;
-        height: 50vh;
-        
-    }
-    #direita{
-        width: 100%;
-        height: 50vh;
-    }
   
-    p{
-        font-size: 13px;
-        
-     }
-     h2{
-        font-size:20px;
-     }
-     
-    #direita img{
-        width: 60%;
-        height: 48vh;
-    }
-   
+
    
 }
 
-/* RESPONSIVIDADE DISPOSITIVOS MOBILE */
-@media screen and (min-width: 280px) and (max-width: 480px) {
-    #home{
-        flex-direction: column;
-    }
-    #esquerda{
-        width: 100%;
-        height: 50vh;
-        
-    }
-    #direita{
-        width: 100%;
-        height: 50vh;
-    }
-     p{
-        font-size: 10px;
-    
-     }
-     
-     h2{
-        font-size: 20px;
-     }
-     
-
-    #direita img{
-        width: 100%;
-        height: 50vh;
-    }
-}
