@@ -30,6 +30,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: absolute;
 
 }
 #funil-1{
@@ -37,13 +38,14 @@
     height: 5vh;
     background-color: peru;
     border-radius: 5%;
-
+    display: flex;
 }
 #funil-2{
     width: 70%;
     height: 5vh;
     background-color: green;
     border-radius: 5%;
+
 
 }
 #funil-3{
@@ -84,11 +86,16 @@
 
 .hidden{
     display: none;
+    background-color: green;
+    position: relative;
+    
 }
 .hidden p{
     font-family: 'Open Sans', sans-serif;
     color: white;
     font-size: 15px;
+    margin-top: 26px;    
+
     
 }
 
@@ -97,7 +104,9 @@
 }
 
 #ckb:checked ~ #texto-1{
-    display: block;
+    display: flex;
+    justify-content: right;
+    position: relative;
 }
 #ckb2:checked ~ #texto-2{
     display: block;
