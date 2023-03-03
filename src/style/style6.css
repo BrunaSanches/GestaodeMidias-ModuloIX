@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    width: 80%;
+    height: 80vh;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#funil{
+    width: 50%;
+    height: 50vh;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#funil-1{
+    width: 80%;
+    height: 5vh;
+    background-color: peru;
+    border-radius: 5%;
+
+}
+#funil-2{
+    width: 70%;
+    height: 5vh;
+    background-color: green;
+    border-radius: 5%;
+
+}
+#funil-3{
+    width: 60%;
+    height: 5vh;
+    background-color: pink;
+    border-radius: 5%;
+}
+#funil-4{
+    width: 50%;
+    height: 5vh;
+    background-color: blue;
+    border-radius: 5%;
+}
+#funil-5{
+    width: 40%;
+    height: 5vh;
+    background-color: white;
+    border-radius: 5%;
+}
+
+#texto{
+    display: flex;
+}
+#texto p{
+    margin-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 16px;
+}
+
+#clica-1{
+    width: 80vh;
+    height: auto;
+    padding: 10px;
+}
+
+
+.hidden{
+    display: none;
+}
+.hidden p{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 15px;
+    
+}
+
+.check{
+    /* display: none; */
+}
+
+#ckb:checked ~ #texto-1{
+    display: block;
+}
+#ckb2:checked ~ #texto-2{
+    display: block;
+}
+#ckb3:checked ~ #texto-3{
+    display: block;
+}
+#ckb4:checked ~ #texto-4{
+    display: block;
+}
+#ckb5:checked ~ #texto-5{
+    display: block;
+}
+
+
