@@ -39,3 +39,61 @@ p{
     height: 100vh;
     border-radius: 2%;
 }
+
+/* RESPONSIVIDADE TELAS PEQUENAS */
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    #home{
+        flex-direction: column;
+    }
+    #esquerda{
+        width: 100%;
+        height: 50vh;
+        
+    }
+    #direita{
+        width: 100%;
+        height: 50vh;
+    }
+    #direita img{
+        width: 100%;
+        height: 50vh;
+    }
+    p{
+        font-size: 20px;
+
+        
+     }
+     
+     
+    
+   
+}
+
+/* RESPONSIVIDADE DISPOSITIVOS MOBILE */
+@media screen and (min-width: 280px) and (max-width: 480px) {
+    #home{
+        flex-direction: column;
+    }
+    #esquerda{
+        width: 100%;
+        height: 50vh;
+        
+    }
+    #direita{
+        width: 100%;
+        height: 50vh;
+    }
+     p{
+        font-size: 12px;
+    
+     }
+     
+
+    #direita img{
+        width: 100%;
+        height: 50vh;
+    }
+   
+    
+
+}
