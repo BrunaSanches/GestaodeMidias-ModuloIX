@@ -28,19 +28,18 @@
    
 }
 ol{
-  padding-left: 4em;
-  padding-right: 4em;
+  padding-left: 3em;
+  padding-right: 3em;
   
 
 }
 li{
-    font-size: 22px;
+    font-size:20px;
     font-family: 'Open Sans', sans-serif;
     text-align: justify;
     color: black;
-    padding-left: 0.5em;
-    padding-bottom: 0.5em;
-    line-height:30pt;
+    padding-bottom: 1em;
+   
 
 }
 h2{
@@ -50,10 +49,81 @@ h2{
     text-align: left;
     color: black;
     font-weight: bold;
-    padding: 2em;
+    padding: 1em;
 }
 #direita img{
     width: 70%;
     height: 60vh;
     border-radius: 2%;
+}
+
+/* RESPONSIVIDADE TELAS PEQUENAS */
+@media screen and (min-width: 768px) and (max-width: 1025px){
+    #home{
+        flex-direction: column;
+    }
+    #esquerda{
+        width: 100%;
+        height: 50vh;
+        
+    }
+    #direita{
+        width: 100%;
+        height: 50vh;
+    }
+    #direita img{
+        width: 100%;
+        height: 50vh;
+    }
+    li{
+        font-size: 13px;
+        
+     }
+     h2{
+        font-size:20px;
+     }
+     
+    #direita img{
+        width: 50%;
+        height: 43vh;
+    }
+   
+   
+}
+
+/* RESPONSIVIDADE DISPOSITIVOS MOBILE */
+@media screen and (min-width: 280px) and (max-width: 480px) {
+    #home{
+        flex-direction: column;
+    }
+    #esquerda{
+        width: 100%;
+        height: 50vh;
+        
+    }
+    #direita{
+        width: 100%;
+        height: 50vh;
+    }
+     li{
+        font-size: 10px;
+    
+     }
+     ol{
+        font-size: 10px;
+    
+     }
+     h2{
+        font-size: 16px;
+     }
+     
+
+    #direita img{
+        width: 80%;
+        height: 40vh;
+    }
+   
+   
+    
+
 }
