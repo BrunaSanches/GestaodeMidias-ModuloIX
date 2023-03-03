@@ -37,7 +37,7 @@
 
 }
 h1{
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 600;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
@@ -47,25 +47,117 @@ h1{
     padding-top: 1em;
 }
 p{
-    font-size: 22px;
+    font-size: 18px;
     font-family: 'Open Sans', sans-serif;
     text-align: justify;
     color: white;
-    padding:2em;
+    padding:1.5em;
 
 }
 #img5{
-    width:70%;
-    height: 60vh;
+    width:60%;
+    height: 50vh;
     border-radius: 2%;
 }
 #img8{
-    width:70%;
-    height: 60vh;
+    width:60%;
+    height: 50vh;
     border-radius: 2%;
 }
 #img10{
-    width:70%;
+    width:60%;
     height: 50vh;
     border-radius: 2%;
+}
+
+/* RESPONSIVIDADE TELAS PEQUENAS */
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    #home{
+        flex-direction: column;
+    }
+    #esquerda{
+        width: 100%;
+        height: 50vh;
+        
+    }
+    #direita{
+        width: 100%;
+        height: 50vh;
+    }
+    #img5{
+        width: 60%;
+        height: 30vh;
+    }
+    #img8{
+        width: 60%;
+        height: 30vh;
+    }
+    #img10{
+        width: 60%;
+        height: 30vh;
+    }
+    p{
+        font-size: 18px;
+ 
+     }
+    
+     h1{
+        font-size: 30px;
+     }
+     #cor{
+        width: 60%;
+        height: 45vh;
+     }
+    
+   
+}
+
+/* RESPONSIVIDADE DISPOSITIVOS MOBILE */
+@media screen and (min-width: 280px) and (max-width: 480px) {
+    #home{
+        flex-direction: column;
+    }
+    #esquerda{
+        width: 100%;
+        height: 50vh;
+        
+    }
+    #direita{
+        width: 100%;
+        height: 50vh;
+    }
+     p{
+        font-size: 10px;
+    
+        
+     }
+     h1{
+        font-size: 18px;
+     }
+    
+    #cor{
+        width: 97%;
+        height: 48vh;
+    }
+    #direita img{
+        width: 80%;
+        height: 42vh;
+    }
+    #cor{
+        width: 90%;
+        height: 30vh;
+    }
+    #img5{
+        width: 90%;
+        height: 30vh;
+    }
+    #img8{
+        width: 90%;
+        height: 30vh;
+    }
+    #img10{
+        width: 90%;
+        height: 30vh;
+    }
+
 }
