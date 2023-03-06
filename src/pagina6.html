@@ -12,94 +12,46 @@
 </head>
 <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="fc_iniciaSCO();" onUnload="fc_setStatus('completed');unloadPage();">
     <div id="home">
-    
-    <div id="container">
-        <p>Clique nos números do funil e descubra quais as razões você deve 
-            utlizar um funil! </p>
-    <div id="funil">
-        <div id="funil-1">
-            <div id="clica-1">
-                <input class="check" id="ckb" type="checkbox" name="" id="">
-                <div id="texto">
-                    <label for="ckb"></label>
-                    <p>Identificação dos pontos fracos</p>
-                </div>
-
-                <div class="hidden" id="texto-1">
-                    <p>O funil ajuda a identificar pontos fracos em sua estratégia de conversão, permitindo que você
-                         tome medidas para melhorar a taxa de conversão.</p>
-                </div>
-            </div>
+        <div id="container">
+            <ul>
+                <li class="funil" id="funil-1">
+                    <input type="checkbox" name="" id="ckb1">
+                    <label for="ckb1">Identificação dos pontos fracos</label>
+                    <ul id="sub-ckb1">
+                        <li><a href="#">Subitem 2.1</a></li>
+                      </ul>
+                </li>
+                
+                <li class="funil" id="funil-2">
+                    <input type="checkbox" name="" id="ckb2">
+                    <label for="ckb2">Otimização da estratégia</label>
+                    <ul id="sub-ckb2">
+                        <li><a href="#">Subitem 2.1</a></li>
+                      </ul>
+                </li>
+                <li class="funil" id="funil-3">
+                    <input type="checkbox" name="" id="ckb3">
+                    <label for="ckb3">Medição do desempenho</label>
+                    <ul id="sub-ckb3">
+                        <li><a href="#">Subitem 2.1</a></li>
+                      </ul>
+                </li>
+                <li class="funil" id="funil-4">
+                    <input type="checkbox" name="" id="ckb4">
+                    <label for="ckb4">Alinhamento da equipe</label>
+                    <ul id="sub-ckb4">
+                        <li><a href="#">Subitem 2.1</a></li>
+                      </ul>
+                </li>
+                <li class="funil" id="funil-5">
+                    <input type="checkbox" name="" id="ckb5">
+                    <label for="ckb5">Compreensão do cliente</label>
+                    <ul id="sub-ckb5">
+                        <li><a href="#">Subitem 2.1</a></li>
+                      </ul>
+                </li>
+              </ul>
         </div>
-
-        <div id="funil-2">
-            <div id="clica-1">
-                <input class="check" id="ckb2" type="checkbox" name="" id="">
-                <div id="texto">
-                    <label for="ckb2"></label>
-                    <p>Otimização da estratégia </p>
-                </div>
-
-                <div class="hidden" id="texto-2">
-                    <p>O funil permite ajustar sua estratégia de acordo com as
-                         necessidades e preferências do público-alvo, o que pode resultar em uma conversão mais efetiva.
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <div id="funil-3">
-            <div id="clica-1">
-                <input class="check" id="ckb3" type="checkbox" name="" id="">
-                <div id="texto">
-                    <label for="ckb3"></label>
-                    <p>Medição do desempenho </p>
-                </div>
-
-                <div class="hidden" id="texto-3">
-                    <p>O funil fornece uma forma de medir o desempenho da estratégia de marketing, permitindo ajustes e 
-                        melhorias contínuas.</p>
-                </div>
-            </div>
-        </div>
-
-        <div id="funil-4">
-            <div id="clica-1">
-                <input class="check" id="ckb4" type="checkbox" name="" id="">
-                <div id="texto">
-                    <label for="ckb4"></label>
-                    <p>Alinhamento da equipe  </p>
-                </div>
-                <div class="hidden" id="texto-4">
-                    <p>O funil ajuda a alinhar as equipes de marketing e vendas,
-                         garantindo que todos estejam trabalhando em direção a um
-                          objetivo comum.
-                    </p>
-                </div>
-            </div>
-        </div>
-        
-        
-        <div id="funil-5">
-            <div id="clica-1">
-                <input class="check" id="ckb5" type="checkbox" name="" id="">
-                <div id="texto">
-                    <label for="ckb5"></label>
-                    <p>Compreensão do cliente </p>
-                </div>
-                <div class="hidden" id="texto-5">
-                    <p>O funil permite entender o comportamento do cliente e suas 
-                        necessidades ao longo do processo de conversão, o que pode 
-                        ser usado para personalizar a experiência do usuário.</p>
-                </div>
-            </div>
-        </div>
-    </div>  
-</div>
-
-
-
-    </div>
 
     <script type="text/javascript" src="includes/conteudo.js"></script>
     <script type="text/javascript" src="includes/apiwrapper.js"></script>

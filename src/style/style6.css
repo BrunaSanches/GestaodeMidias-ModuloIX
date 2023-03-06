@@ -1,124 +1,120 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;800&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-#home{
+#container{
     width: 100%;
     height: 100vh;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    scale: 1.3;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-#container{
-    width: 80%;
-    height: 80vh;
-    background-color: blue;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-}
-
-#funil{
-    width: 50%;
-    height: 50vh;
-    background-color: red;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-
-}
-#funil-1{
-    width: 80%;
-    height: 5vh;
-    background-color: peru;
-    border-radius: 5%;
-    display: flex;
-}
-#funil-2{
-    width: 70%;
-    height: 5vh;
-    background-color: green;
-    border-radius: 5%;
+  }
 
 
-}
-#funil-3{
-    width: 60%;
-    height: 5vh;
-    background-color: pink;
-    border-radius: 5%;
-}
-#funil-4{
-    width: 50%;
-    height: 5vh;
-    background-color: blue;
-    border-radius: 5%;
-}
-#funil-5{
-    width: 40%;
-    height: 5vh;
-    background-color: white;
-    border-radius: 5%;
-}
+  li {
+    position: relative;
+    
+  }
 
-#texto{
-    display: flex;
-}
-#texto p{
-    margin-left: 20px;
-    font-family: 'Open Sans', sans-serif;
-    color: white;
-    font-size: 16px;
-}
 
-#clica-1{
-    width: 80vh;
-    height: auto;
+
+  li a {
+    display: block;
     padding: 10px;
-}
+    text-decoration: none;
+    color: #000;
+  }
+
+  .funil{
+    text-align: center;
+    padding-top: 15px;
+  }
+
+  #funil-1{
+    width: 400px;
+    background-color: rgb(125, 234, 241);
+    height: 40px;
+  }
+  #funil-2{
+    width: 350px;
+    background-color: rgb(72, 219, 219);
+    height: 40px;
+  }
+  #funil-3{
+    width: 300px;
+    background-color: rgb(40, 184, 176);
+    height: 40px;
+  }
+  #funil-4{
+    width: 250px;
+    background-color: rgb(12, 109, 104);
+    height: 40px;
+
+  }
+  #funil-5{
+    width: 200px;
+    background-color: rgb(117, 36, 49);
+    height: 40px;
+
+  }
 
 
-.hidden{
+  /* Definir estilos para os submenus */
+  ul ul {
     display: none;
-    background-color: green;
-    position: relative;
-    
-}
-.hidden p{
-    font-family: 'Open Sans', sans-serif;
-    color: white;
-    font-size: 15px;
-    margin-top: 26px;    
+  }
 
-    
-}
+  input{
+    display: none;
+  }
 
-.check{
-    /* display: none; */
-}
 
-#ckb:checked ~ #texto-1{
-    display: flex;
-    justify-content: right;
-    position: relative;
-}
-#ckb2:checked ~ #texto-2{
+  #ckb1:checked ~ #sub-ckb1{
     display: block;
-}
-#ckb3:checked ~ #texto-3{
+  }
+  #ckb2:checked ~ #sub-ckb2{
     display: block;
-}
-#ckb4:checked ~ #texto-4{
+  }
+  #ckb3:checked ~ #sub-ckb3{
     display: block;
-}
-#ckb5:checked ~ #texto-5{
+  }
+  #ckb4:checked ~ #sub-ckb4{
     display: block;
-}
+  }
+  #ckb5:checked ~ #sub-ckb5{
+    display: block;
+  }
+  /* Estilizar os submenus */
 
+ #funil-1 li {
+    color: #000;
+    margin-left: 400px;
+ 
+  }
+  #funil-2 li {
+    color: #000;
+    margin-left: 375px;
+  }
+  #funil-3 li {
+    color: #000;
+    margin-left: 345px;
+  }
+  #funil-4 li {
+    color: #000;
+    margin-left: 320px;
+  }
+  #funil-5 li {
+    color: #000;
+    margin-left: 295px;
+  }
+
+ 
 
