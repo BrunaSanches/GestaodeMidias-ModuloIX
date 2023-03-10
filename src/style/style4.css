@@ -39,6 +39,15 @@ p{
     height: 100vh;
     border-radius: 2%;
 }
+h1{
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color:black;
+    font-weight: bold;
+ 
+}
 
 /* RESPONSIVIDADE TELAS PEQUENAS */
 @media screen and (min-width: 768px) and (max-width: 1023px){
