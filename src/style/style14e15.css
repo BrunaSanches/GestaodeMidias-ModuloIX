@@ -76,7 +76,7 @@ body{
     font-family: 'Open Sans', sans-serif;
     display: flex;
     justify-content:left;
-    font-size: 15px;
+    font-size: 18px;
   
 
   }
@@ -90,7 +90,7 @@ body{
 
 }
 p{
-    font-size: 15px;
+    font-size: 18px;
     text-align: justify;
     padding-left: 1em;
     padding-right: 1em;
@@ -154,7 +154,7 @@ li a {
   /* RESPONSIVIDADE */
 
   /* RESPONSIVIDADE TELAS PEQUENAS */
-@media screen and (min-width: 768px) and (max-width: 1023px){
+@media screen and (min-width: 768px) and (max-width: 1024px){
     #home{
         flex-direction: column;
     }
