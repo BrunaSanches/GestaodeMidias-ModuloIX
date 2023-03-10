@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+  
+}
+body{
+    background-color:aliceblue;
+}
+#home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+#esquerda{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#direita{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#0096bb;
+}
+#cor{
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#51d1f1;
+}
+#opcoes{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#opcao-direita {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+   
+   
+
+  }
+  
+#opcao-esquerda {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+   
+    
+  }
+  li{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content:left;
+    font-size: 15px;
+  
+
+  }
+  li img{
+    width: 25px;
+    height: 28px;
+  }
+  #direita img{
+    width: 90%;
+    height: 80vh;
+
+}
+p{
+    font-size: 15px;
+    text-align: justify;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 0.5em;
+
+}
+
+
+li a {
+    display: block;
+    text-decoration: none;
+  }
+
+  ul ul {
+    display: none;
+  }
+
+  input{
+    display: none;
+  }
+
+
+  #ckb1:checked ~ #sub-ckb1{
+    display: block;
+  }
+  #ckb2:checked ~ #sub-ckb2{
+    display: block;
+  }
+  #ckb3:checked ~ #sub-ckb3{
+    display: block;
+  }
+  #ckb4:checked ~ #sub-ckb4{
+    display: block;
+  }
+  #ckb5:checked ~ #sub-ckb5{
+    display: block;
+  }
+  #ckb6:checked ~ #sub-ckb6{
+    display: block;
+  }
+  #ckb7:checked ~ #sub-ckb7{
+    display: block;
+  }
+  #ckb8:checked ~ #sub-ckb8{
+    display: block;
+  }
+  #ckb9:checked ~ #sub-ckb9{
+    display: block;
+  }
+  #ckb10:checked ~ #sub-ckb10{
+    display: block;
+  }
+
+
+  /* RESPONSIVIDADE */
+
+  /* RESPONSIVIDADE TELAS PEQUENAS */
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    #home{
+        flex-direction: column;
+    }
+    #esquerda{
+        width: 100%;
+        height: 50vh;
+        
+    }
+    #direita{
+        width: 100%;
+        height: 50vh;
+    }
+  
+    #direita img{
+        width: 80%;
+        height: 40vh;
+    }
+    #cor{
+        width: 90%;
+        height: 45vh;
+    }
+    #opcoes{
+        width: 100%;
+        height: 20vh;
+    }
+    p{
+        font-size: 15px;
+    }
+    li{
+        font-size: 15px;
+    }
+    h1{
+        font-size: 20px;
+   }
+   
+}
+
+/* RESPONSIVIDADE DISPOSITIVOS MOBILE */
+@media screen and (min-width: 280px) and (max-width: 480px) {
+    #home{
+        flex-direction: column;
+    }
+    #esquerda{
+        width: 100%;
+        height: 50vh;
+        
+    }
+    #direita{
+        width: 100%;
+        height: 50vh;
+    }
+     
+    #direita img{
+        width: 80%;
+        height: 40vh;
+    }
+    #cor{
+        width: 90%;
+        height: 45vh;
+    }
+    #opcoes{
+        width: 100%;
+        height: 25vh;
+    }
+    p{
+        font-size: 13px;
+    }
+    li{
+        font-size: 10px;
+ 
+   }
+   h1{
+        font-size: 18px;
+   }
+   #opcao-direita {
+    width: 170px;
+   
+   }
+   #opcao-esquerda {
+    width: 170px;
+   
+   }
+}
