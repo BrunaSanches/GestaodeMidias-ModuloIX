@@ -1,67 +1,78 @@
-html{
-    font-family:Arial, Helvetica, sans-serif;
+html {
+    font-family: 'Nunito';
 }
-body {
- 
+
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .boards {
     display: flex;
-
-    margin-top: 32px;
+    border-color:#0096bb;
 }
 
 .board {
-    background: #141316;
-    border: 1px solid #FD951F11;
+ 
+    border: 1px solid #0096bb;
     border-radius: 4px;
-
     margin: 0 16px;
+    
 }
 
 .board h3 {
-    padding: 16px;
+    padding: 10px;
     margin: 0;
-    color: #FD951Fcc;
+    color:#0096bb;
 }
 
 .dropzone {
-    padding: 16px;
-    min-width: 282px;
-    min-height: 200px;
+    padding-left: 4em;
+    padding-right: 4em;
+   
+}
+#quadrado{
+    width: 100%;
+    display: flex;
+    
+}
+#direita{
+    width: 50%;
+    height: 80vh;
+    flex-direction: column;
+
+}
+#esquerda{
+    width: 50%;
+    height: 80vh;
+    flex-direction: column;
 }
 
 .card {
-    background-color: #1A1A1C;
-    padding: 16px;
-    box-shadow: 0 2px 2px -1px #FD951Fcc;
-    width: 250px;
-    margin: 25px 0;
+ 
+    padding: 10px;
+    border: 1px solid #51d1f1;
+    width: 100px;
+    margin: 15px 0;
     border-radius: 4px;
-    font-weight: 600;
-    font-size: 18px;
+    font-size: 15px;
 }
 
-.status {
-    width: 30px;
-    height: 8px;
-    background: gray;
-    margin-bottom: 16px;
-    border-radius: 8px;
+p{
+    font-size: 20px;
+    text-align: center;
+    padding-left: 2em;
+    padding-right: 2em;
 }
-
-.status.green {
-    background: #23d2ac;
-}
-
-
-
-.status.red {
-    background: red;
+h1{
+    font-size: 25px;
+    text-align: center;
 }
 
 .highlight {
-    background-color: #FD951F08;
+    background-color:#eefcff;
 }
 
 .card, .dropzone {
@@ -74,5 +85,14 @@ body {
 }
 
 .over {
-    background-color: #4cd13711;
+    background-color:#eefcff;
+}
+
+img{
+    width: 15px;
+    height: 15px;
+    display: none;
+}
+.esconde{
+    display: block;
 }

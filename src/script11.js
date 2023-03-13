@@ -68,4 +68,5 @@ function dragleave() {
 function drop() {
     // log('DROPZONE: dropped ')
     this.classList.remove('over')
+    dropzones.forEach( dropzone => dropzone.classList.add('esconde'))
 }
