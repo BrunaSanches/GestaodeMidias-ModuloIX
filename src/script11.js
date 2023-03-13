@@ -1,14 +1,14 @@
-/** help */
+
 function log(message) {
     console.log('> ' + message)
 }
 
-/** app */
+
 const cards = document.querySelectorAll('.card')
 const dropzones = document.querySelectorAll('.dropzone')
 
 
-/** our cards */
+
 cards.forEach(card => {
     card.addEventListener('dragstart', dragstart)
     card.addEventListener('drag', drag)
@@ -35,7 +35,7 @@ function dragend() {
     this.classList.remove('is-dragging')
 }
 
-/** place where we will drop cards */
+/** arrasta cartoes */
 dropzones.forEach( dropzone => {
     dropzone.addEventListener('dragenter', dragenter)
     dropzone.addEventListener('dragover', dragover)
@@ -68,5 +68,6 @@ function dragleave() {
 function drop() {
     // log('DROPZONE: dropped ')
     this.classList.remove('over')
-    dropzones.forEach( dropzone => dropzone.classList.add('esconde'))
+    this.classList.add('esconde') 
+    
 }
