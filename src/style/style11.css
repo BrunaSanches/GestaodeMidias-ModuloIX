@@ -7,6 +7,7 @@ html {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+  
 }
 
 .boards {
@@ -40,13 +41,13 @@ html {
 }
 #direita{
     width: 50%;
-    height: 80vh;
+    height: 75vh;
     flex-direction: column;
 
 }
 #esquerda{
     width: 50%;
-    height: 80vh;
+    height: 75vh;
     flex-direction: column;
 }
 
@@ -58,6 +59,7 @@ html {
     margin: 15px 0;
     border-radius: 4px;
     font-size: 15px;
+    display: flex;
 }
 
 p{
@@ -87,12 +89,54 @@ h1{
 .over {
     background-color:#eefcff;
 }
+ 
 
-img{
+#footer p{
+    padding-bottom: 1em;
+    font-size: 15px;
+}
+#footer img{
+    width: 30px;
+    height:30px;
+    padding-top:2em;
+    padding-right:1em ;
+}
+#footer{
+    width: 100%;
+    height: 20vh;
+    background-color: #51d1f1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+
+}
+
+.card img{
     width: 15px;
     height: 15px;
     display: none;
+    
 }
-.esconde{
+#check img{
     display: block;
+}
+
+
+
+
+/* RESPONSIVIDADE TELAS PEQUENAS */
+@media screen and (min-width: 768px) and (max-width: 1025px){
+
+
+
+
+}
+/* RESPONSIVIDADE DISPOSITIVOS MOBILE */
+@media screen and (min-width: 280px) and (max-width: 480px) {
+    #home{
+        flex-direction: column;
+    
+    }
 }
