@@ -29,6 +29,7 @@ ul {
     flex-direction: column;
     justify-content:center;
     align-items: center;
+    font-family: 'Open Sans', sans-serif;
 
   }
   p{
@@ -36,12 +37,14 @@ ul {
     font-size: 20px;
     padding: 1em;
     font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
   }
 
 
   li {
     position: relative;
     font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
 
     
   }
