@@ -205,7 +205,7 @@ ul {
     font-size: 15px;
   }
 }
-@media screen and (min-width:768px) and (max-width:990px) {
+@media screen and (min-width:600px) and (max-width:990px) {
     
   
   #container{
@@ -213,6 +213,9 @@ ul {
     height: 100vh;
     scale: 1.1;
 
+  }
+  p{
+    font-size: 20px;
   }
   
 }
