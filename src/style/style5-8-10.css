@@ -43,11 +43,11 @@ h1{
     text-align: center;
     color: #1684a0;
     font-weight: bold;
-    padding-bottom: 1em;
-    padding-top: 1em;
+    padding-bottom: 0.5em;
+   
 }
 p{
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     text-align: justify;
     color: white;
@@ -71,7 +71,7 @@ p{
 }
 
 /* RESPONSIVIDADE TELAS PEQUENAS */
-@media screen and (min-width: 768px) and (max-width: 1023px){
+@media screen and (min-width: 600px) and (max-width: 1023px){
     #home{
         flex-direction: column;
     }
@@ -93,11 +93,11 @@ p{
         height: 30vh;
     }
     #img10{
-        width: 60%;
+        width: 40%;
         height: 30vh;
     }
     p{
-        font-size: 18px;
+        font-size: 13px;
  
      }
     
@@ -113,7 +113,7 @@ p{
 }
 
 /* RESPONSIVIDADE DISPOSITIVOS MOBILE */
-@media screen and (min-width: 280px) and (max-width: 480px) {
+@media screen and (min-width: 280px) and (max-width: 500px) {
     #home{
         flex-direction: column;
     }
@@ -132,7 +132,7 @@ p{
         
      }
      h1{
-        font-size: 18px;
+        font-size: 15px;
      }
     
     #cor{

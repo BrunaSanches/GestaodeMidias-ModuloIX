@@ -1,12 +1,14 @@
 html {
     font-family: 'Nunito';
 }
+body{ background-color: aliceblue;
+}
 
 #home {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: aliceblue;
+   
   
 }
 
