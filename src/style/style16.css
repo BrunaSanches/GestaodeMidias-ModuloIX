@@ -41,7 +41,7 @@ p{
     padding-left:1.5em;
     padding-right:1.5em;
     line-height:20pt;
-    padding-top: 1em;
+    padding-top: 0.5em;
 
 }
 
@@ -51,14 +51,14 @@ h2{
     font-family: 'Open Sans', sans-serif;
     color: black;
     font-weight: bold;
-    padding-top: 1em;
+    padding-top: 0.5em;
   
 
    
 }
 
 /* RESPONSIVIDADE TELAS PEQUENAS */
-@media screen and (min-width: 768px) and (max-width: 1023px){
+@media screen and (min-width: 600px) and (max-width: 900px){
     #home{
         flex-direction: column;
     }
@@ -94,7 +94,7 @@ h2{
 }
 
 /* RESPONSIVIDADE DISPOSITIVOS MOBILE */
-@media screen and (min-width: 280px) and (max-width: 480px) {
+@media screen and (min-width: 280px) and (max-width: 580px) {
     #home{
         flex-direction: column;
     }
